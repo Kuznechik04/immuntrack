@@ -1,0 +1,57 @@
+<h2>MFA erforderlich</h2>
+<form method="POST">
+  <div class="form-group">
+  <label for="code">6-stelliger Code</label>
+  <div class="code-input-container">
+    <input type="text" maxlength="1" class="code-input" id="code1" data-index="0">
+    <input type="text" maxlength="1" class="code-input" id="code2" data-index="1">
+    <input type="text" maxlength="1" class="code-input" id="code3" data-index="2">
+    <input type="text" maxlength="1" class="code-input" id="code4" data-index="3">
+    <input type="text" maxlength="1" class="code-input" id="code5" data-index="4">
+    <input type="text" maxlength="1" class="code-input" id="code6" data-index="5">
+  </div>
+  <!-- Verstecktes Feld für den kombinierten Code -->
+  <input type="hidden" name="code" id="combined-code">
+</div>
+  <button type="submit">Bestätigen</button>
+</form>
+
+<<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputs = document.querySelectorAll('.code-input');
+    const combinedInput = document.getElementById('combined-code');
+    const form = document.querySelector('form'); // Das Formular finden
+
+    console.log('JS geladen, Inputs gefunden:', inputs.length); // Debug: Sollte 6 zeigen
+
+    inputs.forEach((input, index) => {
+      input.addEventListener('input', function() {
+        console.log('Input in Feld', index, ':', this.value); // Debug: Zeigt Eingabe
+        this.value = this.value.replace(/[^0-9]/g, ''); // Nur Zahlen
+        updateCombinedCode();
+        if (this.value && index < inputs.length - 1) {
+          inputs[index + 1].focus();
+        }
+      });
+
+      input.addEventListener('keydown', function(e) {
+        if (e.key === 'Backspace' && !this.value && index > 0) {
+          inputs[index - 1].focus();
+        }
+      });
+    });
+
+    // WICHTIG: Code vor Submit kombinieren
+    form.addEventListener('submit', function() {
+      updateCombinedCode();
+      console.log('Submit: Kombinierter Code:', combinedInput.value); // Debug: Sollte den 6-stelligen Code zeigen
+    });
+
+    function updateCombinedCode() {
+      let code = '';
+      inputs.forEach(input => code += input.value);
+      combinedInput.value = code;
+      console.log('Kombinierter Code aktualisiert:', code); // Debug: Zeigt den Code
+    }
+  });
+</script>

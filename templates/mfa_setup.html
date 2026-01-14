@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+{% block title %}MFA einrichten{% endblock %}
+{% block content %}
+<div class="login-container">
+  <h1>MFA einrichten</h1>
+  <p>Scanne den QR-Code mit deiner Authenticator-App und gib danach den Code ein.</p>
+  <img src="data:image/png;base64,{{ qr_b64 }}" alt="MFA QR Code" />
+  <form method="POST" action="{{ url_for('.mfa_verify_setup') }}" class="login-form">
+    <div class="form-group">
+      <label for="code">6-stelliger Code</label>
+      <div class="code-input-container">
+        <input type="text" maxlength="1" class="code-input" id="code1" data-index="0">
+        <input type="text" maxlength="1" class="code-input" id="code2" data-index="1">
+        <input type="text" maxlength="1" class="code-input" id="code3" data-index="2">
+        <input type="text" maxlength="1" class="code-input" id="code4" data-index="3">
+        <input type="text" maxlength="1" class="code-input" id="code5" data-index="4">
+        <input type="text" maxlength="1" class="code-input" id="code6" data-index="5">
+      </div>
+  <!-- Verstecktes Feld für den kombinierten Code -->
+  <input type="hidden" name="code" id="combined-code">
+    </div>
+    <div class="form-group">
+      <button type="submit" class="login-button">MFA aktivieren</button>
+    </div>
+  </form>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputs = document.querySelectorAll('.code-input');
+    const combinedInput = document.getElementById('combined-code');
+    const form = document.querySelector('form');
+    const submitButton = document.querySelector('button[type="submit"]');
+
+    console.log('JS geladen, Inputs gefunden:', inputs.length);
+
+    function updateCombinedCode() {
+      let code = '';
+      inputs.forEach(input => code += input.value);
+      combinedInput.value = code;
+      console.log('Kombinierter Code:', code);
+    }
+
+    inputs.forEach((input, index) => {
+      input.addEventListener('input', function() {
+        this.value = this.value.replace(/[^0-9]/g, ''); // Nur Zahlen
+        updateCombinedCode();
+        if (this.value && index < inputs.length - 1) {
+          inputs[index + 1].focus();
+        }
+      });
+
+      input.addEventListener('keydown', function(e) {
+        if (e.key === 'Backspace' && !this.value && index > 0) {
+          inputs[index - 1].focus();
+        }
+      });
+    });
+
+    // Sicherstellen, dass der Code vor Submit aktualisiert wird
+    submitButton.addEventListener('click', function(e) {
+      updateCombinedCode();
+      console.log('Button geklickt, Code:', combinedInput.value);
+    });
+
+    form.addEventListener('submit', function(e) {
+      updateCombinedCode();
+      console.log('Form submit, final Code:', combinedInput.value);
+    });
+  });
+</script>
+
+{% endblock %}

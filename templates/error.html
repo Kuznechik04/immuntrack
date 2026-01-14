@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title %}Fehler{% endblock %}
+{% block content %}
+<div class="error-message" style="background-color: #FFC299; padding: 2em; border-radius: 8px; max-width: 700px; margin: 3em auto; text-align: center;">
+  <h1 style="color: #213CAF; font-size: 2rem; margin-bottom: 1em;">Ups! Das hat leider nicht geklappt.</h1>
+  <p style="margin-bottom: 0.5em; font-weight: bold;">Fehlercode: {{ error_code }}</p>
+  <p style="margin-bottom: 1.5em;">{{ error_message }}</p>
+  <a href="/" class="login-btn" style="padding: 0.5em 1.5em; background-color: #213CAF; color: white; text-decoration: none; border-radius: 4px;">Zurück zur Startseite</a>
+</div>
+{% endblock %}

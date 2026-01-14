@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block title %}ImmunTrack – Startseite{% endblock %}
+{% block content %}
+<h1>Ihr digitaler Impfstatus –<br>sicher & immer verfügbar</h1>
+<p>Verwalten Sie Ihren Impfpass einfach, sicher und jederzeit online.</p>
+<ul>
+    <li>Datenschutzkonform</li>
+    <li>Weltweit verfügbar</li>
+    <li>Einfache Nutzung</li>
+</ul>
+<section class="cta">
+    <h2>Siehe dir jetzt deinen Impfstatus an!</h2>
+    <button onclick="window.location.href='/registration'" class="cta-primary">Los geht's!</button>
+    <button onclick="window.location.href='/login'" class="cta-secondary">Anmelden</button>
+</section>
+<section class="info">
+    <h3>Was ist ImmunTrack?</h3>
+    <p>ImmunTrack ist eine digitale Plattform zur Verwaltung und Analyse von Impfstatusdaten. Nutzerinnen und Nutzer können ihren Impfpass online pflegen und mithilfe eines Abgleichs mit offiziellen Impfempfehlungen ihre Impftermine gezielter planen. Die Anwendung kombiniert einfache Bedienung mit datenschutzkonformer Speicherung und Auswertung medizinischer Informationen.</p>
+    <h3>Warum ImmunTrack?</h3>
+    <p>Viele Menschen verlieren schnell den Überblick über ihren Impfstatus oder haben ihren Impfpass nicht zur Hand. Vor allem bei internationalen Reisen oder im medizinischen Notfall kann das zu einem großen Herausforderung werden. ImmunTrack löst dieses Problem durch eine zentrale, jederzeit verfügbare und sichere Webanwendung. Die Plattform fördert Prävention, reduziert Impflücken und vereinfacht den Zugang zu wichtigen Gesundheitsdaten.</p>
+    <h3>Wie funktioniert es?</h3>
+    <p>Nach der Registrierung können Nutzer:innen ihre Impfungen manuell oder per Scan-Funktion eintragen. Die Daten werden sicher in einer Datenbank gespeichert. ImmunTrack funktioniert webbasiert und bietet langfristig auch API-Anbindung für Ärztinnen und Gesundheitsämter.</p>
+</section>
+{% endblock %}

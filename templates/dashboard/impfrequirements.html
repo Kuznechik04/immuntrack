@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>Impfvoraussetzungen</h2>
+    <ul>
+        {% for req in requirements %}
+            <li>{{ req.land }} - {{ req.impfstoff }} - {{ req.gueltigkeitsdauer }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block title %}ImmunTrack – Impfungen verwalten{% endblock %}
+{% block content %}
+  <h1>Meine Impfungen</h1>
+
+    <a href="{{ url_for('main_bp.add_vaccine') }}" class="dashboard-link-btn">Impfung hinzufügen</a>
+   
+
+<section class="vaccine-records"style="margin-left: 0;">
+  
+    <table class="vaccine-table" style="margin-left: 0;">
+        <thead>
+            <tr>
+                <th>Impfstoff</th>
+                <th>Hersteller</th>
+                <th>Datum</th>
+                <th>Status</th>
+                <th style="background-color: #C5C9DB; border: 0;"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if impfungen|length == 0 %}
+            <tr>
+                <td colspan="5" style="text-align: center; background-color: #C5C9DB; border: none; font-style: italic;">
+                    Noch keine Impfungen!
+                </td>
+            </tr>
+            {% endif %}
+            {% for impfung in impfungen %}
+            <tr>
+                <td>{{ impfung.impfstoff }}</td>
+                <td>{{ impfung.hersteller }}</td>
+                <td>{{ impfung.datum }}</td>
+                <td>{{ impfung.status }}</td>
+                <td style="background-color: #C5C9DB; border: 0; box-shadow: none;">
+                    <form action="{{ url_for('main_bp.delete_impfung', impfung_id=impfung.id) }}" method="POST" onsubmit="return confirm('Wirklich löschen?');" style="display:inline;">
+                        <button type="submit" class="btn btn-danger btn-sm" title="Löschen" style="background: none; border: none; padding: 0; outline: none;">
+                            <img src="{{ url_for('static', filename='images/garbage.png') }}" alt="Löschen" style="width: 24px; height: 24px;">
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+     
+</section>
+<div>
+        <ul>
+            <li><a class="dashboard-link-btn" href="/dashboard">Zurück zum Dashboard</a></li>
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="body-header">
+        <a href="/landingpage" class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="ImmunTrack Logo">
+            ImmunTrack
+        </a>
+        <nav class="nav">
+            <a href="/about">Über ImmunTrack</a>
+            <a href="/security">Sicherheit</a>
+            <a href="/contact">Kontakt</a>
+            <a href="/login" class="login-btn" style="color: white;">Login</a>
+        </nav>
+    </div>
+ 
+    <main class="main">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+          {% endfor %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <a href="/landingpage" class="footer-logo" style="text-decoration: none; color: inherit;">ImmunTrack</a>
+        <div class="footer-links">
+            <a href="/privacy-policy">Datenschutz</a>
+            <a href="/legal-notice">Impressum</a>
+            <a href="/terms-of-use">Nutzungsbedingungen</a>
+            <a href="/copyright">Copyright</a>
+        </div>
+    </footer>
+</body>
+</html>

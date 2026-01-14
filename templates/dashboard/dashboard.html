@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block title %}ImmunTrack – Startseite{% endblock %}
+{% block content %}
+<div class="dashboard-wrapper">
+  <h1>Willkommen, {{ current_user.first_name }}!</h1>
+  <p>Dies ist dein persönliches Dashboard. Hier kannst du deinen Impfstatus einsehen, neue Einträge hinzufügen und bestehende Informationen verwalten.</p>
+  <div>
+    <ul>
+      <li><a class="dashboard-link-btn" href="/manage-vaccine-records">Impfeinträge verwalten</a></li>
+      <li><a class="dashboard-link-btn" href="/account-settings">Kontoeinstellungen</a></li>
+      </ul>
+  </div>
+  <div class="vaccine-map-wrapper">
+    {% include "dashboard/vaccine-map-snippet.html" %}
+  </div>
+  <div>
+    <ul> <li><a class="dashboard-link-btn" href="/landingpage">Abmelden</a></li></ul>
+  </div>
+</div>
+{% endblock %}

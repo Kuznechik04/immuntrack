@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Impfung hinzufügen</h1>
+<div class="contact-form-wrapper">
+    <form method="POST" action="{{ url_for('main_bp.add_vaccine') }}" class="contact-form">
+        
+        <label for="impfstoff">Impfstoff:</label>
+        <input type="text" id="impfstoff" name="impfstoff" required>
+
+        <label for="hersteller">Hersteller:</label>
+        <input type="text" id="hersteller" name="hersteller" required>
+
+        <label for="datum">Datum:</label>
+        <input type="date" id="datum" name="datum" required>
+
+        <label for="status">Status:</label>
+        <select id="status" name="status" required>
+            <option value="gültig">gültig</option>
+            <option value="ungültig">ungültig</option>
+        </select>
+
+        <button type="submit">Impfung hinzufügen</button>
+    </form>
+</div>
+<div>
+        <ul>
+            <li><a class="dashboard-link-btn" href="/manage-vaccine-records">Zurück zur Impfübersicht</a></li>
+            <li><a class="dashboard-link-btn" href="/dashboard">Zurück zum Dashboard</a></li>
+        </ul>
+    </div>
+{% endblock %}

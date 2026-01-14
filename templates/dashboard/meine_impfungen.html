@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>Meine Impfungen</h2>
+    <a href="{{ url_for('main_bp.add_vaccine') }}">Impfung hinzufügen</a>
+    <ul>
+        {% for impfung in impfungen %}
+            <li>{{ impfung.impfstoff }} - {{ impfung.hersteller }} - {{ impfung.datum }} - {{ impfung.status }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

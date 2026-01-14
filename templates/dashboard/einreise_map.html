@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Einreisestatus Weltkarte</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <h2>Einreise-Status weltweit</h2>
+
+    <!-- SVG-Karte mit Länder-IDs wie "DE", "FR", "US", etc. -->
+    {% include "dashboard/worldmap.svg" %}
+
+    <!-- Erklärungstext, Legende, etc. -->
+    <div>
+        <p>Diese Weltkarte zeigt, in welche Länder du basierend auf deinem Impfstatus einreisen darfst.</p>
+    </div>
+
+    <!-- Beispiel: templates/dashboard/einreise_map.html -->
+    <div id="map" style="width: 100%; height: 600px;"></div>
+    <script src="{{ url_for('static', filename='map/simplemaps_worldmap.js') }}"></script>
+    <script src="{{ url_for('static', filename='map/mapdata.js') }}"></script>
+
+    <!-- 💉 Impfstatus aus Flask einbinden -->
+    <script>
+      window.impfstatus = {{ impfstatus | tojson | safe }};
+      console.log("Impfstatus geladen:", window.impfstatus);
+
+      // Farbverlauf von rot (0%) zu grün (100%)
+      function getColor(percent) {
+        // Interpoliert zwischen rot (#f44336) und grün (#4caf50)
+        const r = Math.round(244 + (76 - 244) * (percent / 100));
+        const g = Math.round(67 + (175 - 67) * (percent / 100));
+        const b = Math.round(54 + (80 - 54) * (percent / 100));
+        return `rgb(${r},${g},${b})`;
+      }
+
+      window.onload = function () {
+        if (typeof simplemaps_worldmap_mapdata !== "undefined") {
+          for (const [iso, percent] of Object.entries(window.impfstatus)) {
+            const farbe = getColor(percent);
+            if (!simplemaps_worldmap_mapdata.state_specific[iso]) simplemaps_worldmap_mapdata.state_specific[iso] = {};
+            simplemaps_worldmap_mapdata.state_specific[iso].color = farbe;
+          }
+        } else {
+          console.error("simplemaps_worldmap_mapdata ist nicht definiert!");
+        }
+      };
+    </script>
+
+    <!-- 🌍 Länder einfärben -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

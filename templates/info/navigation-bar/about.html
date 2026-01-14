@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block title %}Über ImmunTrack{% endblock %}
+{% block content %}
+<h1>Über ImmunTrack</h1>
+<p>Wir sind ein engagiertes Team aus Studierenden der Wirtschaftsinformatik mit dem Ziel, den Impfstatus digital, sicher und benutzerfreundlich zugänglich zu machen. Mit ImmunTrack schaffen wir eine innovative Webanwendung, die es Nutzerinnen und Nutzern ermöglicht, ihren Impfverlauf zentral zu verwalten[, Erinnerungen zu erhalten] und jederzeit Einblick in ihren Gesundheitsstatus zu gewinnen – unabhängig von Ort und Zeit. Dabei legen wir besonderen Wert auf Datenschutz, intuitive Bedienung und medizinische Relevanz.</p>
+
+<h3>Unser Team</h3>
+<div class="team-container">
+  <div class="team-member">
+    <img src="{{ url_for('static', filename='images/nus_neu.jpg') }}" alt="Nus" class="team-img">
+    <p><strong>Nusret Akbulut</strong><br>Projektleiter und Frontend-Entwicklung</p>
+  </div>
+  <div class="team-member">
+    <img src="{{ url_for('static', filename='images/har_new.jpeg') }}" alt="Har" class="team-img">
+    <p><strong>Harnoor Singh</strong><br>Backend-Entwicklung</p>
+  </div>
+  <div class="team-member">
+    <img src="{{ url_for('static', filename='images/nic_new.jpeg') }}" alt="Nic" class="team-img">
+    <p><strong>Niclas Fröse</strong><br>Frontend-Entwicklung und Dokumentation</p>
+  </div>
+  <div class="team-member">
+    <img src="{{ url_for('static', filename='images/phil.jpeg') }}" alt="Phil" class="team-img">
+    <p><strong>Philip Weber</strong><br>Backend-Entwicklung</p>
+  </div>
+</div>
+{% endblock %}

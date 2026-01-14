@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+{% block title %}ImmunTrack – Startseite{% endblock %}
+{% block content %}
+<div class="account-settings-container" style="text-align: left;">
+    <h1 class="account-settings-heading">Kontoeinstellungen</h1>
+    <form method="post" action="/update-account" class="account-settings-form">
+        <div class="form-group">
+            <label for="first_name">Vorname:</label>
+            <input type="text" id="first_name" name="first_name" class="form-control" value="{{ current_user.first_name }}">
+        </div>
+
+        <div class="form-group">
+            <label for="last_name">Nachname:</label>
+            <input type="text" id="last_name" name="last_name" class="form-control" value="{{ current_user.last_name }}">
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" class="form-control" value="{{ current_user.email }}">
+        </div>
+
+        <div class="form-group">
+            <label for="current_password">Aktuelles Passwort:</label>
+            <input type="password" id="current_password" name="current_password" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="new_password">Neues Passwort:</label>
+            <input type="password" id="new_password" name="new_password" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="confirm_new_password">Neues Passwort bestätigen:</label>
+            <input type="password" id="confirm_new_password" name="confirm_new_password" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Änderungen speichern</button>
+        </div>
+    </form>
+     <div>
+        <ul>
+       <li> <a class="dashboard-link-btn" href="/dashboard">Zurück zum Dashboard</a> </li>
+       <li><a class="dashboard-link-btn" href="/landingpage">Abmelden</a> </li>
+       {% if current_user.mfa_enabled %}
+<li>
+  <label>MFA Status</label>
+  <label class="switch">
+    <input type="checkbox" checked disabled>
+    <span class="slider"></span>
+  </label>
+</li>
+{% else %}
+<li>
+  <form method="POST" action="{{ url_for('auth_bp.mfa_setup') }}" style="display: inline;">
+    <label>MFA aktivieren</label>
+    <label class="switch">
+      <input type="checkbox" name="enable_mfa" onchange="this.form.submit()">
+      <span class="slider"></span>
+    </label>
+  </form>
+</li>
+{% endif %}
+</ul>
+
+</div>
+{% endblock %}

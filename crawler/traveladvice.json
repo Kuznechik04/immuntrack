@@ -1,0 +1,2390 @@
+[
+  {
+    "name": "Abu Dhabi: siehe Vereinigte Arabische Emirate",
+    "label": "Vereinigte Arabische Emirate",
+    "value": 202332,
+    "img": ""
+  },
+  {
+    "name": "Aegypten",
+    "label": "Ägypten",
+    "value": 212622,
+    "img": ""
+  },
+  {
+    "name": "Aequatorialguinea",
+    "label": "Äquatorialguinea",
+    "value": 226768,
+    "img": ""
+  },
+  {
+    "name": "Aethiopien",
+    "label": "Äthiopien",
+    "value": 209504,
+    "img": ""
+  },
+  {
+    "name": "Afghanistan",
+    "label": "Afghanistan",
+    "value": 204692,
+    "img": ""
+  },
+  {
+    "name": "Ägypten",
+    "label": "Ägypten",
+    "value": 212622,
+    "img": ""
+  },
+  {
+    "name": "Albanien",
+    "label": "Albanien",
+    "value": 216248,
+    "img": ""
+  },
+  {
+    "name": "Algerien",
+    "label": "Algerien",
+    "value": 219044,
+    "img": ""
+  },
+  {
+    "name": "Amerika (Vereinigte Staaten von)",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Amerikanische Jungferninseln (US Virgin Islands): siehe USA",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Amerikanisch-Samoa (American Samoa): siehe USA",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Amsterdam: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Andorra",
+    "label": "Andorra",
+    "value": 224898,
+    "img": ""
+  },
+  {
+    "name": "Angola",
+    "label": "Angola",
+    "value": 208118,
+    "img": ""
+  },
+  {
+    "name": "Anguilla: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Antananarivo: siehe Madagaskar",
+    "label": "Madagaskar",
+    "value": 207960,
+    "img": ""
+  },
+  {
+    "name": "Antigua und Barbuda",
+    "label": "Antigua und Barbuda",
+    "value": 227042,
+    "img": ""
+  },
+  {
+    "name": "Äquatorialguinea",
+    "label": "Äquatorialguinea",
+    "value": 226768,
+    "img": ""
+  },
+  {
+    "name": "Argentinien",
+    "label": "Argentinien",
+    "value": 201326,
+    "img": ""
+  },
+  {
+    "name": "Armenien",
+    "label": "Armenien",
+    "value": 201872,
+    "img": ""
+  },
+  {
+    "name": "Aruba: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Aserbaidschan",
+    "label": "Aserbaidschan",
+    "value": 201888,
+    "img": ""
+  },
+  {
+    "name": "Athen: siehe Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "Äthiopien",
+    "label": "Äthiopien",
+    "value": 209504,
+    "img": ""
+  },
+  {
+    "name": "Australien",
+    "label": "Australien",
+    "value": 213920,
+    "img": ""
+  },
+  {
+    "name": "Azoren: siehe Portugal",
+    "label": "Portugal",
+    "value": 210900,
+    "img": ""
+  },
+  {
+    "name": "Bahamas",
+    "label": "Bahamas",
+    "value": 220268,
+    "img": ""
+  },
+  {
+    "name": "Bahrain",
+    "label": "Bahrain",
+    "value": 204112,
+    "img": ""
+  },
+  {
+    "name": "Balearen (Balearische Inseln): siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Bali: siehe Indonesien",
+    "label": "Indonesien",
+    "value": 212396,
+    "img": ""
+  },
+  {
+    "name": "Bangladesch",
+    "label": "Bangladesch",
+    "value": 206292,
+    "img": ""
+  },
+  {
+    "name": "Barbados",
+    "label": "Barbados",
+    "value": 226424,
+    "img": ""
+  },
+  {
+    "name": "Barbuda; Antigua und",
+    "label": "Antigua und Barbuda",
+    "value": 227042,
+    "img": ""
+  },
+  {
+    "name": "Beirut: siehe Libanon",
+    "label": "Libanon",
+    "value": 204048,
+    "img": ""
+  },
+  {
+    "name": "Belarus",
+    "label": "Belarus",
+    "value": 201904,
+    "img": ""
+  },
+  {
+    "name": "Belgien",
+    "label": "Belgien",
+    "value": 200382,
+    "img": ""
+  },
+  {
+    "name": "Belize",
+    "label": "Belize",
+    "value": 220284,
+    "img": ""
+  },
+  {
+    "name": "Benin",
+    "label": "Benin",
+    "value": 208984,
+    "img": ""
+  },
+  {
+    "name": "Bermuda: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Bhutan",
+    "label": "Bhutan",
+    "value": 226702,
+    "img": ""
+  },
+  {
+    "name": "Bolivien",
+    "label": "Bolivien",
+    "value": 213428,
+    "img": ""
+  },
+  {
+    "name": "Bonaire (Ndl. Antillen): siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Bordeaux: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Bornholm: siehe Dänemark",
+    "label": "Dänemark",
+    "value": 211724,
+    "img": ""
+  },
+  {
+    "name": "Bosnien und Herzegowina",
+    "label": "Bosnien und Herzegowina",
+    "value": 207694,
+    "img": ""
+  },
+  {
+    "name": "Botsuana",
+    "label": "Botsuana",
+    "value": 219522,
+    "img": ""
+  },
+  {
+    "name": "Brasilien",
+    "label": "Brasilien",
+    "value": 201092,
+    "img": ""
+  },
+  {
+    "name": "Britische Jungferninseln (British Virgin Islands): siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Brunei Darussalam",
+    "label": "Brunei Darussalam",
+    "value": 224526,
+    "img": ""
+  },
+  {
+    "name": "Brüssel: siehe Belgien",
+    "label": "Belgien",
+    "value": 200382,
+    "img": ""
+  },
+  {
+    "name": "Buenos Aires: siehe Argentinien",
+    "label": "Argentinien",
+    "value": 201326,
+    "img": ""
+  },
+  {
+    "name": "Bulgarien",
+    "label": "Bulgarien",
+    "value": 211834,
+    "img": ""
+  },
+  {
+    "name": "Burkina Faso",
+    "label": "Burkina Faso",
+    "value": 212336,
+    "img": ""
+  },
+  {
+    "name": "Burundi",
+    "label": "Burundi",
+    "value": 222614,
+    "img": ""
+  },
+  {
+    "name": "Cabo Verde",
+    "label": "Cabo Verde",
+    "value": 208824,
+    "img": ""
+  },
+  {
+    "name": "Cabrera: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Canada: siehe Kanada",
+    "label": "Kanada",
+    "value": 204874,
+    "img": ""
+  },
+  {
+    "name": "Canberra: siehe Australien",
+    "label": "Australien",
+    "value": 213920,
+    "img": ""
+  },
+  {
+    "name": "Cayman Islands: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Ceuta: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Chennai: siehe Indien",
+    "label": "Indien",
+    "value": 205998,
+    "img": ""
+  },
+  {
+    "name": "Chile",
+    "label": "Chile",
+    "value": 201230,
+    "img": ""
+  },
+  {
+    "name": "China",
+    "label": "China",
+    "value": 200466,
+    "img": ""
+  },
+  {
+    "name": "Chisinau: siehe Moldau",
+    "label": "Republik Moldau",
+    "value": 201932,
+    "img": ""
+  },
+  {
+    "name": "Cookinseln",
+    "label": "Cookinseln",
+    "value": 226552,
+    "img": ""
+  },
+  {
+    "name": "Costa Rica",
+    "label": "Costa Rica",
+    "value": 224816,
+    "img": ""
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "label": "Côte d'Ivoire",
+    "value": 209460,
+    "img": ""
+  },
+  {
+    "name": "Cote d'Ivoire: siehe Côte d'Ivoire",
+    "label": "Côte d'Ivoire",
+    "value": 209460,
+    "img": ""
+  },
+  {
+    "name": "Curaçao (Ndl. Antillen): siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Daenemark",
+    "label": "Dänemark",
+    "value": 211724,
+    "img": ""
+  },
+  {
+    "name": "Dänemark",
+    "label": "Dänemark",
+    "value": 211724,
+    "img": ""
+  },
+  {
+    "name": "Darussalam; Brunei",
+    "label": "Brunei Darussalam",
+    "value": 224526,
+    "img": ""
+  },
+  {
+    "name": "Demokratische Republik Kongo",
+    "label": "Demokratische Republik Kongo",
+    "value": 203202,
+    "img": ""
+  },
+  {
+    "name": "Demokratische Volksrepublik Korea",
+    "label": "Demokratische Volksrepublik Korea (Nordkorea)",
+    "value": 216104,
+    "img": ""
+  },
+  {
+    "name": "Demokratische Volksrepublik Korea (Nordkorea)",
+    "label": "Demokratische Volksrepublik Korea (Nordkorea)",
+    "value": 216104,
+    "img": ""
+  },
+  {
+    "name": "Den Haag: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Djibouti",
+    "label": "Dschibuti",
+    "value": 212168,
+    "img": ""
+  },
+  {
+    "name": "Dodekanes: siehe Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "Dominica",
+    "label": "Dominica",
+    "value": 220300,
+    "img": ""
+  },
+  {
+    "name": "Dominikanische Republik",
+    "label": "Dominikanische Republik",
+    "value": 206146,
+    "img": ""
+  },
+  {
+    "name": "Dschibuti",
+    "label": "Dschibuti",
+    "value": 212168,
+    "img": ""
+  },
+  {
+    "name": "Dubai: siehe Vereinigte Arabische Emirate",
+    "label": "Vereinigte Arabische Emirate",
+    "value": 202332,
+    "img": ""
+  },
+  {
+    "name": "Dublin: siehe Irland",
+    "label": "Irland",
+    "value": 211460,
+    "img": ""
+  },
+  {
+    "name": "Dubrovnik: siehe Kroatien",
+    "label": "Kroatien",
+    "value": 210072,
+    "img": ""
+  },
+  {
+    "name": "Ecuador",
+    "label": "Ecuador",
+    "value": 223232,
+    "img": ""
+  },
+  {
+    "name": "Ehemalige jugoslawische Republik Mazedonien: siehe Nordmazedonien",
+    "label": "Nordmazedonien",
+    "value": 207612,
+    "img": ""
+  },
+  {
+    "name": "Elfenbeinküste: siehe Côte d'Ivoire",
+    "label": "Côte d'Ivoire",
+    "value": 209460,
+    "img": ""
+  },
+  {
+    "name": "El Hierro: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "El Salvador",
+    "label": "El Salvador",
+    "value": 221864,
+    "img": ""
+  },
+  {
+    "name": "England: siehe Großbritannien",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Eritrea",
+    "label": "Eritrea",
+    "value": 226176,
+    "img": ""
+  },
+  {
+    "name": "Estland",
+    "label": "Estland",
+    "value": 200754,
+    "img": ""
+  },
+  {
+    "name": "Eswatini",
+    "label": "Eswatini",
+    "value": 226240,
+    "img": ""
+  },
+  {
+    "name": "Falklandinseln (Falkland Islands): siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Färöer Inseln: siehe Dänemark",
+    "label": "Dänemark",
+    "value": 211724,
+    "img": ""
+  },
+  {
+    "name": "Fidschi",
+    "label": "Fidschi",
+    "value": 226626,
+    "img": ""
+  },
+  {
+    "name": "Finnland",
+    "label": "Finnland",
+    "value": 211624,
+    "img": ""
+  },
+  {
+    "name": "Formentera: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Französisch-Guayana: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Französisch Polynesien: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Fuerteventura: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Gabun",
+    "label": "Gabun",
+    "value": 226324,
+    "img": ""
+  },
+  {
+    "name": "Galapagos: siehe Ecuador",
+    "label": "Ecuador",
+    "value": 223232,
+    "img": ""
+  },
+  {
+    "name": "Gambia",
+    "label": "Gambia",
+    "value": 213624,
+    "img": ""
+  },
+  {
+    "name": "Gaza: siehe Palästinensische Gebiete",
+    "label": "Palästinensische Gebiete*",
+    "value": 203674,
+    "img": ""
+  },
+  {
+    "name": "Georgien",
+    "label": "Georgien",
+    "value": 201918,
+    "img": ""
+  },
+  {
+    "name": "Ghana",
+    "label": "Ghana",
+    "value": 203372,
+    "img": ""
+  },
+  {
+    "name": "Gibraltar: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Goa: siehe Indien",
+    "label": "Indien",
+    "value": 205998,
+    "img": ""
+  },
+  {
+    "name": "Gotland: siehe Schweden",
+    "label": "Schweden",
+    "value": 210708,
+    "img": ""
+  },
+  {
+    "name": "Gran Canaria: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Grenada",
+    "label": "Grenada",
+    "value": 220316,
+    "img": ""
+  },
+  {
+    "name": "Grenadinen; St. Vincent und die",
+    "label": "St. Vincent und die Grenadinen",
+    "value": 226268,
+    "img": ""
+  },
+  {
+    "name": "Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "Grönland: siehe Dänemark",
+    "label": "Dänemark",
+    "value": 211724,
+    "img": ""
+  },
+  {
+    "name": "Großbritannien: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Guadeloupe: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Guam: siehe USA",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Guatemala",
+    "label": "Guatemala",
+    "value": 221882,
+    "img": ""
+  },
+  {
+    "name": "Guernsey: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Guinea",
+    "label": "Guinea",
+    "value": 206098,
+    "img": ""
+  },
+  {
+    "name": "Guinea-Bissau",
+    "label": "Guinea-Bissau",
+    "value": 220332,
+    "img": ""
+  },
+  {
+    "name": "Guyana",
+    "label": "Guyana",
+    "value": 220348,
+    "img": ""
+  },
+  {
+    "name": "Haiti",
+    "label": "Haiti",
+    "value": 205048,
+    "img": ""
+  },
+  {
+    "name": "Havanna: siehe Kuba",
+    "label": "Kuba",
+    "value": 212208,
+    "img": ""
+  },
+  {
+    "name": "Heiliger Stuhl / Vatikan",
+    "label": "Heiliger Stuhl / Vatikan",
+    "value": 226808,
+    "img": ""
+  },
+  {
+    "name": "Helsinki: siehe Finnland",
+    "label": "Finnland",
+    "value": 211624,
+    "img": ""
+  },
+  {
+    "name": "Herzegowina; Bosnien und",
+    "label": "Bosnien und Herzegowina",
+    "value": 207694,
+    "img": ""
+  },
+  {
+    "name": "Holland: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Honduras",
+    "label": "Honduras",
+    "value": 221078,
+    "img": ""
+  },
+  {
+    "name": "Hongkong",
+    "label": "Hongkong*",
+    "value": 200854,
+    "img": ""
+  },
+  {
+    "name": "Hongkong: siehe China",
+    "label": "China",
+    "value": 200466,
+    "img": ""
+  },
+  {
+    "name": "Hongkong*",
+    "label": "Hongkong*",
+    "value": 200854,
+    "img": ""
+  },
+  {
+    "name": "Ibiza: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Indien",
+    "label": "Indien",
+    "value": 205998,
+    "img": ""
+  },
+  {
+    "name": "Indonesien",
+    "label": "Indonesien",
+    "value": 212396,
+    "img": ""
+  },
+  {
+    "name": "Irak",
+    "label": "Irak",
+    "value": 202738,
+    "img": ""
+  },
+  {
+    "name": "Iran",
+    "label": "Iran",
+    "value": 202396,
+    "img": ""
+  },
+  {
+    "name": "Irland",
+    "label": "Irland",
+    "value": 211460,
+    "img": ""
+  },
+  {
+    "name": "Island",
+    "label": "Island",
+    "value": 223400,
+    "img": ""
+  },
+  {
+    "name": "Isle of Man: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Israel",
+    "label": "Israel",
+    "value": 203814,
+    "img": ""
+  },
+  {
+    "name": "Italien",
+    "label": "Italien",
+    "value": 211322,
+    "img": ""
+  },
+  {
+    "name": "Jakarta: siehe Indonesien",
+    "label": "Indonesien",
+    "value": 212396,
+    "img": ""
+  },
+  {
+    "name": "Jamaika",
+    "label": "Jamaika",
+    "value": 226490,
+    "img": ""
+  },
+  {
+    "name": "Japan",
+    "label": "Japan",
+    "value": 213032,
+    "img": ""
+  },
+  {
+    "name": "Jemen",
+    "label": "Jemen",
+    "value": 202260,
+    "img": ""
+  },
+  {
+    "name": "Jersey: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Jordanien",
+    "label": "Jordanien",
+    "value": 218008,
+    "img": ""
+  },
+  {
+    "name": "Kairo: siehe Ägypten",
+    "label": "Ägypten",
+    "value": 212622,
+    "img": ""
+  },
+  {
+    "name": "Kambodscha",
+    "label": "Kambodscha",
+    "value": 220008,
+    "img": ""
+  },
+  {
+    "name": "Kamerun",
+    "label": "Kamerun",
+    "value": 208874,
+    "img": ""
+  },
+  {
+    "name": "Kanada",
+    "label": "Kanada",
+    "value": 204874,
+    "img": ""
+  },
+  {
+    "name": "Kanarische Inseln (Kanaren): siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Kapverden: siehe Cabo Verde",
+    "label": "Cabo Verde",
+    "value": 208824,
+    "img": ""
+  },
+  {
+    "name": "Kasachstan",
+    "label": "Kasachstan",
+    "value": 206342,
+    "img": ""
+  },
+  {
+    "name": "Katar",
+    "label": "Katar",
+    "value": 202280,
+    "img": ""
+  },
+  {
+    "name": "Kathmandu: siehe Nepal",
+    "label": "Nepal",
+    "value": 221216,
+    "img": ""
+  },
+  {
+    "name": "Kenia",
+    "label": "Kenia",
+    "value": 208058,
+    "img": ""
+  },
+  {
+    "name": "Kingston: siehe Jamaika",
+    "label": "Jamaika",
+    "value": 226490,
+    "img": ""
+  },
+  {
+    "name": "Kirgisistan",
+    "label": "Kirgisistan",
+    "value": 206738,
+    "img": ""
+  },
+  {
+    "name": "Kiribati",
+    "label": "Kiribati",
+    "value": 220364,
+    "img": ""
+  },
+  {
+    "name": "Kleine Antillen: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Kolumbien",
+    "label": "Kolumbien",
+    "value": 201516,
+    "img": ""
+  },
+  {
+    "name": "Komoren",
+    "label": "Komoren",
+    "value": 226660,
+    "img": ""
+  },
+  {
+    "name": "Kongo (Demokratische Republik)",
+    "label": "Demokratische Republik Kongo",
+    "value": 203202,
+    "img": ""
+  },
+  {
+    "name": "Kongo (Republik)",
+    "label": "Republik Kongo",
+    "value": 208542,
+    "img": ""
+  },
+  {
+    "name": "Kopenhagen: siehe Dänemark",
+    "label": "Dänemark",
+    "value": 211724,
+    "img": ""
+  },
+  {
+    "name": "Korea",
+    "label": "Demokratische Volksrepublik Korea (Nordkorea)",
+    "value": 216104,
+    "img": ""
+  },
+  {
+    "name": "Korea",
+    "label": "Republik Korea (Südkorea)",
+    "value": 216132,
+    "img": ""
+  },
+  {
+    "name": "Korsika: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Kosovo",
+    "label": "Kosovo",
+    "value": 207442,
+    "img": ""
+  },
+  {
+    "name": "Kreta: siehe Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "Kroatien",
+    "label": "Kroatien",
+    "value": 210072,
+    "img": ""
+  },
+  {
+    "name": "Kuala Lumpur: siehe Malaysia",
+    "label": "Malaysia",
+    "value": 223616,
+    "img": ""
+  },
+  {
+    "name": "Kuba",
+    "label": "Kuba",
+    "value": 212208,
+    "img": ""
+  },
+  {
+    "name": "Kuwait",
+    "label": "Kuwait",
+    "value": 204130,
+    "img": ""
+  },
+  {
+    "name": "Kykladen: siehe Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "La Gomera: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Lanzarote: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Laos",
+    "label": "Laos",
+    "value": 201048,
+    "img": ""
+  },
+  {
+    "name": "La Palma: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "La Réunion: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Lesotho",
+    "label": "Lesotho",
+    "value": 226974,
+    "img": ""
+  },
+  {
+    "name": "Lettland",
+    "label": "Lettland",
+    "value": 200674,
+    "img": ""
+  },
+  {
+    "name": "Libanon",
+    "label": "Libanon",
+    "value": 204048,
+    "img": ""
+  },
+  {
+    "name": "Liberia",
+    "label": "Liberia",
+    "value": 222378,
+    "img": ""
+  },
+  {
+    "name": "Libyen",
+    "label": "Libyen",
+    "value": 219624,
+    "img": ""
+  },
+  {
+    "name": "Liechtenstein",
+    "label": "Liechtenstein",
+    "value": 222960,
+    "img": ""
+  },
+  {
+    "name": "Litauen",
+    "label": "Litauen",
+    "value": 200620,
+    "img": ""
+  },
+  {
+    "name": "London: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Luxemburg",
+    "label": "Luxemburg",
+    "value": 211256,
+    "img": ""
+  },
+  {
+    "name": "Lyon: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Macau",
+    "label": "Macau*",
+    "value": 200872,
+    "img": ""
+  },
+  {
+    "name": "Macau*",
+    "label": "Macau*",
+    "value": 200872,
+    "img": ""
+  },
+  {
+    "name": "Madagaskar",
+    "label": "Madagaskar",
+    "value": 207960,
+    "img": ""
+  },
+  {
+    "name": "Madeira: siehe Portugal",
+    "label": "Portugal",
+    "value": 210900,
+    "img": ""
+  },
+  {
+    "name": "Malawi",
+    "label": "Malawi",
+    "value": 208508,
+    "img": ""
+  },
+  {
+    "name": "Malaysia",
+    "label": "Malaysia",
+    "value": 223616,
+    "img": ""
+  },
+  {
+    "name": "Malediven",
+    "label": "Malediven",
+    "value": 220382,
+    "img": ""
+  },
+  {
+    "name": "Mali",
+    "label": "Mali",
+    "value": 208258,
+    "img": ""
+  },
+  {
+    "name": "Mallorca: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Malta",
+    "label": "Malta",
+    "value": 211188,
+    "img": ""
+  },
+  {
+    "name": "Managua: siehe Nicaragua",
+    "label": "Nicaragua",
+    "value": 223316,
+    "img": ""
+  },
+  {
+    "name": "Maputo: siehe Mosambik",
+    "label": "Mosambik",
+    "value": 221782,
+    "img": ""
+  },
+  {
+    "name": "Marokko",
+    "label": "Marokko",
+    "value": 224080,
+    "img": ""
+  },
+  {
+    "name": "Marseille: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Marshallinseln",
+    "label": "Marshallinseln",
+    "value": 220400,
+    "img": ""
+  },
+  {
+    "name": "Martinique: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Mauretanien",
+    "label": "Mauretanien",
+    "value": 219190,
+    "img": ""
+  },
+  {
+    "name": "Mauritius",
+    "label": "Mauritius",
+    "value": 206994,
+    "img": ""
+  },
+  {
+    "name": "Mayotte: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Mazedonien (ejR): siehe Nordmazedonien",
+    "label": "Nordmazedonien",
+    "value": 207612,
+    "img": ""
+  },
+  {
+    "name": "Melilla: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Menorca: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Mexiko",
+    "label": "Mexiko",
+    "value": 213648,
+    "img": ""
+  },
+  {
+    "name": "Mikronesien",
+    "label": "Mikronesien",
+    "value": 220678,
+    "img": ""
+  },
+  {
+    "name": "Moldau",
+    "label": "Republik Moldau",
+    "value": 201932,
+    "img": ""
+  },
+  {
+    "name": "Moldau: siehe Republik Moldau",
+    "label": "Republik Moldau",
+    "value": 201932,
+    "img": ""
+  },
+  {
+    "name": "Monaco",
+    "label": "Monaco",
+    "value": 226868,
+    "img": ""
+  },
+  {
+    "name": "Mongolei",
+    "label": "Mongolei",
+    "value": 222842,
+    "img": ""
+  },
+  {
+    "name": "Montenegro",
+    "label": "Montenegro",
+    "value": 216330,
+    "img": ""
+  },
+  {
+    "name": "Montreal: siehe Kanada",
+    "label": "Kanada",
+    "value": 204874,
+    "img": ""
+  },
+  {
+    "name": "Montserrat: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Mosambik",
+    "label": "Mosambik",
+    "value": 221782,
+    "img": ""
+  },
+  {
+    "name": "Myanmar",
+    "label": "Myanmar",
+    "value": 212100,
+    "img": ""
+  },
+  {
+    "name": "Namibia",
+    "label": "Namibia",
+    "value": 208314,
+    "img": ""
+  },
+  {
+    "name": "Nauru",
+    "label": "Nauru",
+    "value": 220416,
+    "img": ""
+  },
+  {
+    "name": "Nepal",
+    "label": "Nepal",
+    "value": 221216,
+    "img": ""
+  },
+  {
+    "name": "Neu Delhi: siehe Indien",
+    "label": "Indien",
+    "value": 205998,
+    "img": ""
+  },
+  {
+    "name": "Neu-Kaledonien Saint-Barthélemy: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Neuseeland",
+    "label": "Neuseeland",
+    "value": 220146,
+    "img": ""
+  },
+  {
+    "name": "Nevis; St. Kitts und",
+    "label": "St. Kitts und Nevis",
+    "value": 226596,
+    "img": ""
+  },
+  {
+    "name": "Nicaragua",
+    "label": "Nicaragua",
+    "value": 223316,
+    "img": ""
+  },
+  {
+    "name": "Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Niger",
+    "label": "Niger",
+    "value": 226384,
+    "img": ""
+  },
+  {
+    "name": "Nigeria",
+    "label": "Nigeria",
+    "value": 205788,
+    "img": ""
+  },
+  {
+    "name": "Nordkorea",
+    "label": "Demokratische Volksrepublik Korea (Nordkorea)",
+    "value": 216104,
+    "img": ""
+  },
+  {
+    "name": "Nördliche Marianen (Northern Mariana Islands): siehe USA",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Nordmazedonien",
+    "label": "Nordmazedonien",
+    "value": 207612,
+    "img": ""
+  },
+  {
+    "name": "Norwegen",
+    "label": "Norwegen",
+    "value": 205878,
+    "img": ""
+  },
+  {
+    "name": "Nuakschott: siehe Mauretanien",
+    "label": "Mauretanien",
+    "value": 219190,
+    "img": ""
+  },
+  {
+    "name": "Oesterreich",
+    "label": "Österreich",
+    "value": 210962,
+    "img": ""
+  },
+  {
+    "name": "Öland: siehe Schweden",
+    "label": "Schweden",
+    "value": 210708,
+    "img": ""
+  },
+  {
+    "name": "Oman",
+    "label": "Oman",
+    "value": 204160,
+    "img": ""
+  },
+  {
+    "name": "Oslo: siehe Norwegen",
+    "label": "Norwegen",
+    "value": 205878,
+    "img": ""
+  },
+  {
+    "name": "Österreich",
+    "label": "Österreich",
+    "value": 210962,
+    "img": ""
+  },
+  {
+    "name": "Osttimor: siehe",
+    "label": "Timor-Leste",
+    "value": 221388,
+    "img": ""
+  },
+  {
+    "name": "Ottawa: siehe Kanada",
+    "label": "Kanada",
+    "value": 204874,
+    "img": ""
+  },
+  {
+    "name": "Pakistan",
+    "label": "Pakistan",
+    "value": 204974,
+    "img": ""
+  },
+  {
+    "name": "Palästinensische Gebiete",
+    "label": "Palästinensische Gebiete*",
+    "value": 203674,
+    "img": ""
+  },
+  {
+    "name": "Palästinensische Gebiete*",
+    "label": "Palästinensische Gebiete*",
+    "value": 203674,
+    "img": ""
+  },
+  {
+    "name": "Palau",
+    "label": "Palau",
+    "value": 220958,
+    "img": ""
+  },
+  {
+    "name": "Panama",
+    "label": "Panama",
+    "value": 206378,
+    "img": ""
+  },
+  {
+    "name": "Papua Neuguinea",
+    "label": "Papua-Neuguinea",
+    "value": 220698,
+    "img": ""
+  },
+  {
+    "name": "Papua-Neuguinea",
+    "label": "Papua-Neuguinea",
+    "value": 220698,
+    "img": ""
+  },
+  {
+    "name": "Paraguay",
+    "label": "Paraguay",
+    "value": 224964,
+    "img": ""
+  },
+  {
+    "name": "Paris: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Patagonien: siehe Chile",
+    "label": "Chile",
+    "value": 201230,
+    "img": ""
+  },
+  {
+    "name": "Peking: siehe China",
+    "label": "China",
+    "value": 200466,
+    "img": ""
+  },
+  {
+    "name": "Persien: siehe Iran; Teheran: siehe Iran",
+    "label": "Iran",
+    "value": 202396,
+    "img": ""
+  },
+  {
+    "name": "Peru",
+    "label": "Peru",
+    "value": 211938,
+    "img": ""
+  },
+  {
+    "name": "Philippinen",
+    "label": "Philippinen",
+    "value": 212492,
+    "img": ""
+  },
+  {
+    "name": "Phnom Penh: siehe Kambodscha",
+    "label": "Kambodscha",
+    "value": 220008,
+    "img": ""
+  },
+  {
+    "name": "Podgorica: siehe Montenegro",
+    "label": "Montenegro",
+    "value": 216330,
+    "img": ""
+  },
+  {
+    "name": "Polen",
+    "label": "Polen",
+    "value": 199124,
+    "img": ""
+  },
+  {
+    "name": "Port Louis: siehe Mauritius",
+    "label": "Mauritius",
+    "value": 206994,
+    "img": ""
+  },
+  {
+    "name": "Portugal",
+    "label": "Portugal",
+    "value": 210900,
+    "img": ""
+  },
+  {
+    "name": "Principe; São Tomé und",
+    "label": "São Tomé und Príncipe",
+    "value": 220434,
+    "img": ""
+  },
+  {
+    "name": "Pristina: siehe Kosovo",
+    "label": "Kosovo",
+    "value": 207442,
+    "img": ""
+  },
+  {
+    "name": "Puerto Rico: siehe USA",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Quatar",
+    "label": "Katar",
+    "value": 202280,
+    "img": ""
+  },
+  {
+    "name": "Quebec: siehe Kanada",
+    "label": "Kanada",
+    "value": 204874,
+    "img": ""
+  },
+  {
+    "name": "Rabat: siehe Marokko",
+    "label": "Marokko",
+    "value": 224080,
+    "img": ""
+  },
+  {
+    "name": "Republik Kongo",
+    "label": "Republik Kongo",
+    "value": 208542,
+    "img": ""
+  },
+  {
+    "name": "Republik Korea",
+    "label": "Republik Korea (Südkorea)",
+    "value": 216132,
+    "img": ""
+  },
+  {
+    "name": "Republik Korea (Südkorea)",
+    "label": "Republik Korea (Südkorea)",
+    "value": 216132,
+    "img": ""
+  },
+  {
+    "name": "Republik Moldau",
+    "label": "Republik Moldau",
+    "value": 201932,
+    "img": ""
+  },
+  {
+    "name": "Reykjavik: siehe Island",
+    "label": "Island",
+    "value": 223400,
+    "img": ""
+  },
+  {
+    "name": "Rhodos: siehe Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "Riga: siehe Lettland",
+    "label": "Lettland",
+    "value": 200674,
+    "img": ""
+  },
+  {
+    "name": "Rio de Janeiro: siehe Brasilien",
+    "label": "Brasilien",
+    "value": 201092,
+    "img": ""
+  },
+  {
+    "name": "Rom: siehe Italien",
+    "label": "Italien",
+    "value": 211322,
+    "img": ""
+  },
+  {
+    "name": "Rotes Meer: siehe Ägypten",
+    "label": "Ägypten",
+    "value": 212622,
+    "img": ""
+  },
+  {
+    "name": "Rotes Meer: siehe Jemen",
+    "label": "Jemen",
+    "value": 202260,
+    "img": ""
+  },
+  {
+    "name": "Rotes Meer: siehe Saudi-Arabien",
+    "label": "Saudi-Arabien",
+    "value": 202298,
+    "img": ""
+  },
+  {
+    "name": "Ruanda",
+    "label": "Ruanda",
+    "value": 212026,
+    "img": ""
+  },
+  {
+    "name": "Rumänien",
+    "label": "Rumänien",
+    "value": 210822,
+    "img": ""
+  },
+  {
+    "name": "Russische Föderation",
+    "label": "Russische Föderation",
+    "value": 201536,
+    "img": ""
+  },
+  {
+    "name": "Russland",
+    "label": "Russische Föderation",
+    "value": 201536,
+    "img": ""
+  },
+  {
+    "name": "Saba: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "Saint-Martin: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Saint-Pierre-et-Miquelon: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Salomonen",
+    "label": "Salomonen",
+    "value": 220650,
+    "img": ""
+  },
+  {
+    "name": "Salvador (El)",
+    "label": "El Salvador",
+    "value": 221864,
+    "img": ""
+  },
+  {
+    "name": "Sambia",
+    "label": "Sambia",
+    "value": 208606,
+    "img": ""
+  },
+  {
+    "name": "Samoa",
+    "label": "Samoa",
+    "value": 213758,
+    "img": ""
+  },
+  {
+    "name": "San José: siehe Costa Rica",
+    "label": "Costa Rica",
+    "value": 224816,
+    "img": ""
+  },
+  {
+    "name": "San Marino",
+    "label": "San Marino",
+    "value": 227014,
+    "img": ""
+  },
+  {
+    "name": "Sansibar: siehe Tansania",
+    "label": "Tansania",
+    "value": 208662,
+    "img": ""
+  },
+  {
+    "name": "Santiago de Chile: siehe Chile",
+    "label": "Chile",
+    "value": 201230,
+    "img": ""
+  },
+  {
+    "name": "Santo Domingo: siehe Dominikanische Republik",
+    "label": "Dominikanische Republik",
+    "value": 206146,
+    "img": ""
+  },
+  {
+    "name": "Santorin: siehe Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "São Tomé und Principe",
+    "label": "São Tomé und Príncipe",
+    "value": 220434,
+    "img": ""
+  },
+  {
+    "name": "São Tomé und Príncipe",
+    "label": "São Tomé und Príncipe",
+    "value": 220434,
+    "img": ""
+  },
+  {
+    "name": "Sao Tome und Principe: siehe São Tomé und Principe",
+    "label": "São Tomé und Príncipe",
+    "value": 220434,
+    "img": ""
+  },
+  {
+    "name": "Sardinien: siehe Italien",
+    "label": "Italien",
+    "value": 211322,
+    "img": ""
+  },
+  {
+    "name": "Saudi-Arabien",
+    "label": "Saudi-Arabien",
+    "value": 202298,
+    "img": ""
+  },
+  {
+    "name": "Schottland: siehe Großbritannien",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Schweden",
+    "label": "Schweden",
+    "value": 210708,
+    "img": ""
+  },
+  {
+    "name": "Schweiz",
+    "label": "Schweiz",
+    "value": 206208,
+    "img": ""
+  },
+  {
+    "name": "Senegal",
+    "label": "Senegal",
+    "value": 208190,
+    "img": ""
+  },
+  {
+    "name": "Seoul",
+    "label": "Republik Korea (Südkorea)",
+    "value": 216132,
+    "img": ""
+  },
+  {
+    "name": "Serbien",
+    "label": "Serbien",
+    "value": 207502,
+    "img": ""
+  },
+  {
+    "name": "Seychellen",
+    "label": "Seychellen",
+    "value": 226912,
+    "img": ""
+  },
+  {
+    "name": "Sierra Leone",
+    "label": "Sierra Leone",
+    "value": 203500,
+    "img": ""
+  },
+  {
+    "name": "Simbabwe",
+    "label": "Simbabwe",
+    "value": 208948,
+    "img": ""
+  },
+  {
+    "name": "Singapur",
+    "label": "Singapur",
+    "value": 225412,
+    "img": ""
+  },
+  {
+    "name": "Sizilien: siehe Italien",
+    "label": "Italien",
+    "value": 211322,
+    "img": ""
+  },
+  {
+    "name": "Skopje: siehe Nordmazedonien",
+    "label": "Nordmazedonien",
+    "value": 207612,
+    "img": ""
+  },
+  {
+    "name": "Slowakei",
+    "label": "Slowakei",
+    "value": 206360,
+    "img": ""
+  },
+  {
+    "name": "Slowenien",
+    "label": "Slowenien",
+    "value": 210644,
+    "img": ""
+  },
+  {
+    "name": "Sofia: siehe Bulgarien",
+    "label": "Bulgarien",
+    "value": 211834,
+    "img": ""
+  },
+  {
+    "name": "Somalia",
+    "label": "Somalia",
+    "value": 203132,
+    "img": ""
+  },
+  {
+    "name": "Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Sri Lanka",
+    "label": "Sri Lanka",
+    "value": 212254,
+    "img": ""
+  },
+  {
+    "name": "St. Eustatius: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "St. Helena & Dependencies: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "St. Kitts und Nevis",
+    "label": "St. Kitts und Nevis",
+    "value": 226596,
+    "img": ""
+  },
+  {
+    "name": "St. Lucia",
+    "label": "St. Lucia",
+    "value": 226750,
+    "img": ""
+  },
+  {
+    "name": "St. Maarten: siehe Niederlande",
+    "label": "Niederlande",
+    "value": 211084,
+    "img": ""
+  },
+  {
+    "name": "St. Vincent und die Grenadinen",
+    "label": "St. Vincent und die Grenadinen",
+    "value": 226268,
+    "img": ""
+  },
+  {
+    "name": "Straßburg: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Südafrika",
+    "label": "Südafrika",
+    "value": 208400,
+    "img": ""
+  },
+  {
+    "name": "Sudan",
+    "label": "Sudan",
+    "value": 203266,
+    "img": ""
+  },
+  {
+    "name": "Südkorea",
+    "label": "Republik Korea (Südkorea)",
+    "value": 216132,
+    "img": ""
+  },
+  {
+    "name": "Südsudan",
+    "label": "Südsudan",
+    "value": 244250,
+    "img": ""
+  },
+  {
+    "name": "Suedafrika",
+    "label": "Südafrika",
+    "value": 208400,
+    "img": ""
+  },
+  {
+    "name": "Suedsudan",
+    "label": "Südsudan",
+    "value": 244250,
+    "img": ""
+  },
+  {
+    "name": "Suriname",
+    "label": "Suriname",
+    "value": 220450,
+    "img": ""
+  },
+  {
+    "name": "Swasiland: siehe Eswatini",
+    "label": "Eswatini",
+    "value": 226240,
+    "img": ""
+  },
+  {
+    "name": "Syrien",
+    "label": "Syrien",
+    "value": 204278,
+    "img": ""
+  },
+  {
+    "name": "Tadschikistan",
+    "label": "Tadschikistan",
+    "value": 206756,
+    "img": ""
+  },
+  {
+    "name": "Taiwan",
+    "label": "Taiwan*",
+    "value": 200896,
+    "img": ""
+  },
+  {
+    "name": "Taiwan*",
+    "label": "Taiwan*",
+    "value": 200896,
+    "img": ""
+  },
+  {
+    "name": "Tallinn: siehe Estland",
+    "label": "Estland",
+    "value": 200754,
+    "img": ""
+  },
+  {
+    "name": "Tansania",
+    "label": "Tansania",
+    "value": 208662,
+    "img": ""
+  },
+  {
+    "name": "Tasmanien: siehe Australien; Sydney: siehe Australien",
+    "label": "Australien",
+    "value": 213920,
+    "img": ""
+  },
+  {
+    "name": "Tel Aviv: siehe Israel",
+    "label": "Israel",
+    "value": 203814,
+    "img": ""
+  },
+  {
+    "name": "Teneriffa: siehe Spanien",
+    "label": "Spanien",
+    "value": 210534,
+    "img": ""
+  },
+  {
+    "name": "Thailand",
+    "label": "Thailand",
+    "value": 201558,
+    "img": ""
+  },
+  {
+    "name": "Thessaloniki: siehe Griechenland",
+    "label": "Griechenland",
+    "value": 211534,
+    "img": ""
+  },
+  {
+    "name": "Tiflis: siehe Georgien",
+    "label": "Georgien",
+    "value": 201918,
+    "img": ""
+  },
+  {
+    "name": "Timor-Leste",
+    "label": "Timor-Leste",
+    "value": 221388,
+    "img": ""
+  },
+  {
+    "name": "Tobago; Trinidad und",
+    "label": "Trinidad und Tobago",
+    "value": 220466,
+    "img": ""
+  },
+  {
+    "name": "Togo",
+    "label": "Togo",
+    "value": 213850,
+    "img": ""
+  },
+  {
+    "name": "Tokio: siehe Japan",
+    "label": "Japan",
+    "value": 213032,
+    "img": ""
+  },
+  {
+    "name": "Tonga",
+    "label": "Tonga",
+    "value": 213790,
+    "img": ""
+  },
+  {
+    "name": "Trinidad und Tobago",
+    "label": "Trinidad und Tobago",
+    "value": 220466,
+    "img": ""
+  },
+  {
+    "name": "Tschad",
+    "label": "Tschad",
+    "value": 225774,
+    "img": ""
+  },
+  {
+    "name": "Tschechien",
+    "label": "Tschechien",
+    "value": 210456,
+    "img": ""
+  },
+  {
+    "name": "Tschechische Republik",
+    "label": "Tschechien",
+    "value": 210456,
+    "img": ""
+  },
+  {
+    "name": "Tunesien",
+    "label": "Tunesien",
+    "value": 219024,
+    "img": ""
+  },
+  {
+    "name": "Türkei",
+    "label": "Türkei",
+    "value": 201962,
+    "img": ""
+  },
+  {
+    "name": "Turkmenistan",
+    "label": "Turkmenistan",
+    "value": 206774,
+    "img": ""
+  },
+  {
+    "name": "Turks & Caicos Islands: siehe Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Tuvalu",
+    "label": "Tuvalu",
+    "value": 220666,
+    "img": ""
+  },
+  {
+    "name": "Uganda",
+    "label": "Uganda",
+    "value": 208752,
+    "img": ""
+  },
+  {
+    "name": "Ukraine",
+    "label": "Ukraine",
+    "value": 201946,
+    "img": ""
+  },
+  {
+    "name": "Ulaanbaatar: siehe Mongolei",
+    "label": "Mongolei",
+    "value": 222842,
+    "img": ""
+  },
+  {
+    "name": "Ungarn",
+    "label": "Ungarn",
+    "value": 210332,
+    "img": ""
+  },
+  {
+    "name": "Uruguay",
+    "label": "Uruguay",
+    "value": 201138,
+    "img": ""
+  },
+  {
+    "name": "USA",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Usbekistan",
+    "label": "Usbekistan",
+    "value": 206790,
+    "img": ""
+  },
+  {
+    "name": "VAE",
+    "label": "Vereinigte Arabische Emirate",
+    "value": 202332,
+    "img": ""
+  },
+  {
+    "name": "Valletta: siehe Malta",
+    "label": "Malta",
+    "value": 211188,
+    "img": ""
+  },
+  {
+    "name": "Vanuatu",
+    "label": "Vanuatu",
+    "value": 220498,
+    "img": ""
+  },
+  {
+    "name": "Vatikan",
+    "label": "Heiliger Stuhl / Vatikan",
+    "value": 226808,
+    "img": ""
+  },
+  {
+    "name": "Venezuela",
+    "label": "Venezuela",
+    "value": 224982,
+    "img": ""
+  },
+  {
+    "name": "Vereinigte Arabische Emirate",
+    "label": "Vereinigte Arabische Emirate",
+    "value": 202332,
+    "img": ""
+  },
+  {
+    "name": "Vereinigtes Königreich",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Vereinigte Staaten von Amerika",
+    "label": "USA",
+    "value": 201382,
+    "img": ""
+  },
+  {
+    "name": "Vientiane: siehe Laos",
+    "label": "Laos",
+    "value": 201048,
+    "img": ""
+  },
+  {
+    "name": "Vietnam",
+    "label": "Vietnam",
+    "value": 217274,
+    "img": ""
+  },
+  {
+    "name": "Vilnius: siehe Litauen",
+    "label": "Litauen",
+    "value": 200620,
+    "img": ""
+  },
+  {
+    "name": "Wales: siehe Großbritannien",
+    "label": "Vereinigtes Königreich",
+    "value": 206408,
+    "img": ""
+  },
+  {
+    "name": "Wallis-et-Futuna: siehe Frankreich",
+    "label": "Frankreich",
+    "value": 209524,
+    "img": ""
+  },
+  {
+    "name": "Weißrussland: siehe Belarus",
+    "label": "Belarus",
+    "value": 201904,
+    "img": ""
+  },
+  {
+    "name": "Wellington: siehe Neuseeland",
+    "label": "Neuseeland",
+    "value": 220146,
+    "img": ""
+  },
+  {
+    "name": "Westjordanland: siehe Palästinensische Gebiete",
+    "label": "Palästinensische Gebiete*",
+    "value": 203674,
+    "img": ""
+  },
+  {
+    "name": "Windhuk: siehe Namibia",
+    "label": "Namibia",
+    "value": 208314,
+    "img": ""
+  },
+  {
+    "name": "Yemen: siehe Jemen",
+    "label": "Jemen",
+    "value": 202260,
+    "img": ""
+  },
+  {
+    "name": "Zagreb: siehe Kroatien",
+    "label": "Kroatien",
+    "value": 210072,
+    "img": ""
+  },
+  {
+    "name": "Zambia: siehe Sambia",
+    "label": "Sambia",
+    "value": 208606,
+    "img": ""
+  },
+  {
+    "name": "Zentralafrikanische Republik",
+    "label": "Zentralafrikanische Republik",
+    "value": 226450,
+    "img": ""
+  },
+  {
+    "name": "Zimbabwe",
+    "label": "Simbabwe",
+    "value": 208948,
+    "img": ""
+  },
+  {
+    "name": "Zypern",
+    "label": "Zypern",
+    "value": 210258,
+    "img": ""
+  }
+]

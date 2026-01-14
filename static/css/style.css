@@ -1,0 +1,777 @@
+# Generic form control style for input, select, textarea
+.form-control {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1em;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: border 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #000;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #fff;
+}
+
+.body-header {
+    background-color: #C5C9DB;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    background-color: #C5C9DB;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+ .logo img {
+     height: 60px;
+     width: auto;
+     margin-right: 10px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.login-btn {
+    background: #213CAF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-btn:hover {
+    background: #7995FF;
+}
+
+.main {
+    padding: 30px 40px;
+}
+
+.main h1 {
+    font-size: 2.5em;
+    color: #213CAF;
+}
+
+.main ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.cta {
+    background: #C5C9DB;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.cta-primary {
+    background: #213CAF;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-secondary {
+    background: #2A2C38;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 20px 40px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    background-color: #C5C9DB;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.logo-button {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.logo-button:hover {
+    background: #f0f0f0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo:visited {
+    color: black;
+}
+
+.team-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+    flex: 0 0 200px;
+}
+
+.contact-form {
+    max-width: 700px;
+    width: 100%;
+    margin: 40px 0 40px 40px;
+    padding: 30px;
+    background: #C5C9DB;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border 0.2s ease-in-out;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #213CAF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: background 0.2s ease-in-out;
+}
+
+.contact-form button:hover {
+    background: #7995FF;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+}
+
+.contact-form-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+/* Responsive: shrink padding and font size for contact form on small screens */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 20px;
+    max-width: 98vw;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95em;
+    padding: 10px 8px;
+  }
+  .contact-form button {
+    font-size: 1em;
+    padding: 12px 16px;
+  }
+}
+.login-form-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.login-form {
+    max-width: 700px;
+    width: 100%;
+    margin: 40px 0 40px 40px;
+    padding: 30px;
+    background: #C5C9DB;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border 0.2s ease-in-out;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.login-form button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #213CAF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: background 0.2s ease-in-out;
+}
+
+.login-form button:hover {
+    background: #7995FF;
+}
+.legal-notice {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px 40px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.legal-notice h1, .legal-notice h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.legal-notice p {
+    margin-bottom: 16px;
+}
+
+.error-message {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #FFC299;
+    color: #000;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.error-message h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.error-message p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* .vaccine-state-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #C5C9DB;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    text-align: center;
+} */
+
+.vaccine-state-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #213CAF;
+}
+
+.vaccine-state-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.vaccine-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #000;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: none;
+    border: none;
+}
+
+.vaccine-table thead {
+    background-color: #213CAF;
+    color: white;
+}
+
+.vaccine-table th, .vaccine-table td {
+    border: none;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.vaccine-table tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+
+.add-impfung-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.dashboard-links-box {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #C5C9DB;
+    border-radius: 8px;
+    width: fit-content;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-links-box a {
+    text-decoration: none;
+    color: white;
+    background-color: #213CAF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dashboard-links-box a:hover {
+    background-color: #7995FF;
+}
+
+.dashboard-links-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dashboard-links-box ul li {
+    margin: 0;
+}
+
+/* Dashboard new layout styles */
+.dashboard-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.dashboard-greeting {
+    font-size: 2em;
+    font-weight: bold;
+    color: #213CAF;
+    margin-bottom: 20px;
+}
+
+.dashboard-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.dashboard-links-wrapper a {
+    text-decoration: none;
+    background-color: #213CAF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dashboard-links-wrapper a:hover {
+    background-color: #7995FF;
+}
+.dashboard-link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #213CAF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.dashboard-link-btn:hover {
+    background-color: #7995FF;
+}
+/* Improved dashboard account box layout and button styles */
+.dashboard-account-box {
+    background-color: #C5C9DB;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    max-width: 700px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-account-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.dashboard-account-box input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.dashboard-account-box a {
+    display: inline-block;
+    margin-top: 4px;
+    color: #213CAF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard-account-box a:hover {
+    text-decoration: underline;
+}
+
+.dashboard-account-box .form-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.dashboard-account-box button {
+    padding: 12px 20px;
+    background-color: #213CAF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dashboard-account-box button:hover {
+    background-color: #7995FF;
+}
+
+.account-settings-form {
+    background-color: #C5C9DB;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    max-width: 700px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.account-settings-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.account-settings-form input {
+    padding: 12px 16px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.account-settings-form a {
+    color: #213CAF;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -12px;
+}
+
+.account-settings-form a:hover {
+    text-decoration: underline;
+}
+
+.account-settings-form button {
+    padding: 12px 20px;
+    background-color: #213CAF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.account-settings-form button:hover {
+    background-color: #7995FF;
+}
+
+.account-settings-form .form-buttons {
+    display: flex;
+    gap: 16px;
+}
+.vaccine-records {
+    background-color: #C5C9DB;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    max-width: 800px;
+    margin: 60px auto;
+}
+#map {
+    width: 98vw;
+    max-width: 1200px;
+    height: 700px;
+    margin: 40px auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    background-color: #C5C9DB;
+}
+# Vaccine map wrapper styles
+.vaccine-map-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #C5C9DB;
+}
+
+.contact-form select {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border 0.2s ease-in-out;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Modal styles for delete confirmation */
+.modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.modal-content {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/* CSS für den Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+input:disabled + .slider {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.code-input-container {
+  display: flex;
+  gap: 10px; /* Abstand zwischen Kästchen */
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.code-input {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.code-input:focus {
+  border-color: #213CAF; /* Passend zu deinem Theme */
+}
+
+.code-input:invalid {
+  border-color: red;
+}
